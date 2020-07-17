@@ -17,7 +17,7 @@ class Artist
         @all << this_song
       end
     end
-    @all == Song.all
+    @all = Song.all
   end
 
 
