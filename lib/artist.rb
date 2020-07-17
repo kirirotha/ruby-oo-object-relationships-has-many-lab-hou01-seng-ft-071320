@@ -14,7 +14,7 @@ class Artist
     binding.pry
     Song.all.each do |this_song|
       if this_song.artist == self.name
-        all << self
+        @all << self
       end
     end
     @all
